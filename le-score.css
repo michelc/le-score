@@ -136,9 +136,9 @@ li {
 }
 
 /* https://css-tricks.com/couple-takes-sticky-footer/ */
-.button {
-  background-color: #2962ff;
+button {
   background-color: #05f;
+  border: 0;
   color: white;
   cursor: pointer;
   height: 2.5rem;
@@ -148,8 +148,7 @@ li {
   width: 100%;
 }
 
-.button span {
-  background-color: #0b0;
+button span {
   background-color: #00f;
   display: inline-block;
   height: 2.5rem;
