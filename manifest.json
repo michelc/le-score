@@ -7,7 +7,7 @@
     "background_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "index.html",
+    "start_url": "https://michelc.github.io/le-score/index.html",
     "icons": [
         {
             "src": "icons/android-chrome-192x192.png",
