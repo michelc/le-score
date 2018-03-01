@@ -7,8 +7,8 @@ self.addEventListener('install', e => {
       // Ajoute toutes les URLs des éléments à mettre en cache
       return cache.addAll([
         '/le-score/index.html',
-        '/le-score/normalize.css',
-        '/le-score/le-score.css',
+        'normalize.css',
+        'le-score.css',
         '/le-score/favicon.ico',
         '/le-score/icons/apple-touch-icon.png',
         '/le-score/icons/favicon-32x32.png',
