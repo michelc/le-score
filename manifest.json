@@ -6,16 +6,16 @@
     "theme_color": "#00aba9",
     "background_color": "#ffffff",
     "display": "standalone",
-    "orientation": "portrait-preferred",
-    "start_url": "index.html",
+    "orientation": "portrait",
+    "start_url": "/le-score/index.html",
     "icons": [
         {
-            "src": "icons/android-chrome-192x192.png",
+            "src": "/le-score/icons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/android-chrome-512x512.png",
+            "src": "/le-score/icons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }

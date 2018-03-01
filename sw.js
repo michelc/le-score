@@ -6,18 +6,18 @@ self.addEventListener('install', e => {
     caches.open('ls-cache-pwa').then(cache => {
       // Ajoute toutes les URLs des éléments à mettre en cache
       return cache.addAll([
-        'index.html',
-        'normalize.css',
-        'le-score.css',
-        'favicon.ico',
-        'icons/apple-touch-icon.png',
-        'icons/favicon-32x32.png',
-        'icons/favicon-16x16.png',
-        'icons/safari-pinned-tab.svg',
-        'icons/browserconfig.xml',
-        'icons/android-chrome-192x192.png',
-        'icons/android-chrome-512x512.png',
-        'rk.js',
+        '/le-score/index.html',
+        '/le-score/normalize.css',
+        '/le-score/le-score.css',
+        '/le-score/favicon.ico',
+        '/le-score/icons/apple-touch-icon.png',
+        '/le-score/icons/favicon-32x32.png',
+        '/le-score/icons/favicon-16x16.png',
+        '/le-score/icons/safari-pinned-tab.svg',
+        '/le-score/icons/browserconfig.xml',
+        '/le-score/icons/android-chrome-192x192.png',
+        '/le-score/icons/android-chrome-512x512.png',
+        '/le-score/rk.js',
       ]);
     })
   );
